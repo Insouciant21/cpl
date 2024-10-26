@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.29)
+project(2024-4-loops-nomark C)
+
+set(CMAKE_C_STANDARD 17)
+
+add_executable(similarity.c 2024-4-loops-nomark/similarity.c)
+add_executable(equation-2.c 2024-4-loops-nomark/equation-2.c)
+add_executable(life.c 2024-4-loops-nomark/life.c)
+add_executable(formation.c 2024-4-loops-nomark/formation.c)
+add_executable(statistics.c 2024-4-loops-nomark/statistics.c)
+add_executable(obstacle.c 2024-4-loops-nomark/obstacle.c)
+add_executable(trace.c 2024-4-loops-nomark/trace.c)
+add_executable(softmax.c 2024-4-loops-nomark/softmax.c)
+add_executable(seer.c 2024-4-loops-nomark/seer.c)
+add_executable(reverse.c 2023-exam-1-nomark/reverse.c)
+add_executable(tictactoe.c 2023-exam-1-nomark/tictactoe.c)
+add_executable(Bye-JonaBell.c 2023-exam-1-nomark/Bye-JonaBell.c)

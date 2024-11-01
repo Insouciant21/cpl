@@ -14,10 +14,9 @@ void printTwo(long long n) {
 
 void printHundred(long long n) {
     if (n >= 100) {
-        long long t = n % 100;
-        if (t != 0) {
+        if (n % 100 != 0) {
             printf("%s hundred and ", ones[n / 100]);
-            printTwo(t);
+            printTwo(n % 100);
         }
         else printf("%s hundred", ones[n / 100]);
     }

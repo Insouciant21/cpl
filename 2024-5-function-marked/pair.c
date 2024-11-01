@@ -1,9 +1,8 @@
 #include <stdio.h>
-#define maxn  1000005
-int a[maxn], b[maxn];
+int a[1000005], b[1000005];
 
 int main(void) {
-    int n, m, t, minB = 0x3f3f3f;
+    int n, m, t, minB = 2147483647;
     scanf("%d%d%d", &n, &m, &t);
     for (int i = 0; i < n; i++) scanf("%d", a + i);
     for (int i = 0; i < m; i++) scanf("%d", b + i), minB = minB > b[i] ? b[i] : minB;

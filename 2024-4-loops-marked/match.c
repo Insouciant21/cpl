@@ -10,8 +10,6 @@ int dy[] = {1, 0, 0, -1};
 int main() {
     int n, m;
     scanf("%d%d", &n, &m);
-    memset(a, 0, sizeof a);
-    memset(s, 0, sizeof s);
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             scanf("%d", &a[i][j]);
@@ -23,8 +21,7 @@ int main() {
             Node x = p[i][0], y = p[i][1];
             int flag = 0;
             while (1) {
-                Node nx = (Node) {x.x + dx[d], x.y + dy[d]};
-                Node ny = (Node) {y.x + dx[d], y.y + dy[d]};
+                Node nx = (Node) {x.x + dx[d], x.y + dy[d]}, ny = (Node) {y.x + dx[d], y.y + dy[d]};
                 if ((nx.x < 0 || nx.x >= n || nx.y < 0 || nx.y >= m) &&
                     (ny.x < 0 || ny.x >= n || ny.y < 0 || ny.y >= m)) {
                     flag = 1;
@@ -36,8 +33,7 @@ int main() {
                 x = nx, y = ny;
             }
             if (flag) {
-                a[p[i][0].x][p[i][0].y] = 0;
-                a[p[i][1].x][p[i][1].y] = 0;
+                a[p[i][0].x][p[i][0].y] = a[p[i][1].x][p[i][1].y] = 0;
                 printf("%d ", i);
                 break;
             }

@@ -41,38 +41,35 @@ int main() {
     ans[top++] = 0;
     while (1) {
         int relativeX = x - 60, relativeY = y - 60;
-        if ((!(relativeX & 1) && relativeY != m - 1)) {
+        if (!(relativeX & 1) && relativeY != m - 1) {
             int sx = x - d, sy = y;
             while (sx != x) v -= a[sx][sy], sx++, sy--;
             while (sy != y) v -= a[sx][sy], sx++, sy++;
             v -= a[sx][sy];
-            sx = x - d, sy = y + 1;
+            sx = x - d, sy = ++y;
             while (sx != x) v += a[sx][sy], sx++, sy++;
-            while (sy != y + 1) v += a[sx][sy], sx++, sy--;
+            while (sy != y) v += a[sx][sy], sx++, sy--;
             v += a[sx][sy];
-            y++;
         }
         else if (relativeX & 1 && relativeY != 0) {
             int sx = x - d, sy = y;
             while (sx != x) v -= a[sx][sy], sx++, sy++;
             while (sy != y) v -= a[sx][sy], sx++, sy--;
             v -= a[sx][sy];
-            sx = x - d, sy = y - 1;
+            sx = x - d, sy = --y;
             while (sx != x) v += a[sx][sy], sx++, sy--;
-            while (sy != y - 1) v += a[sx][sy], sx++, sy++;
+            while (sy != y ) v += a[sx][sy], sx++, sy++;
             v += a[sx][sy];
-            y--;
         }
         else {
             int sy = y - d, sx = x;
             while (sy != y) v -= a[sx][sy], sx--, sy++;
             while (sx != x) v -= a[sx][sy], sx++, sy++;
             v -= a[sx][sy];
-            sy = y - d, sx = x + 1;
+            sy = y - d, sx = ++x;
             while (sy != y) v += a[sx][sy], sx++, sy++;
-            while (sx != x + 1) v += a[sx][sy], sx--, sy++;
+            while (sx != x) v += a[sx][sy], sx--, sy++;
             v += a[sx][sy];
-            x++;
         }
         relativeX = x - 60, relativeY = y - 60;
         if (v > maxV) {
@@ -80,7 +77,7 @@ int main() {
             ans[top++] = relativeX * 1000 + relativeY;
         }
         else if (v == maxV) ans[top++] = relativeX * 1000 + relativeY;
-        if (relativeX == n - 1 && relativeY == ((n & 1) ? m - 1 : 0)) break;
+        if (relativeX == n - 1 && relativeY == (n & 1 ? m - 1 : 0)) break;
     }
     printf("%lld %d\n", maxV, top);
     for (int i = 0; i < top; i++) printf("%d %d\n", ans[i] / 1000 + 1, ans[i] % 1000 + 1);

@@ -1,30 +1,14 @@
+#pragma GCC optimize("Ofast,no-stack-protector")
 #include <stdio.h>
-int a[911][911];
+#include <stdlib.h>
+int a[720][720];
 int n, m, d;
-typedef struct Stage {
-    int x, y;
-    int step;
-} Stage;
-int dx[] = {0, 0, 1, -1};
-int dy[] = {1, -1, 0, 0};
-int vis[911][911];
 long long search(int x, int y, int d) {
-    Stage q[6110];
-    int l = 0, r = 0;
     long long v = 0;
-    q[r++] = (Stage) {x, y, 0};
-    vis[x][y] = 1;
-    while (l < r) {
-        Stage prs = q[l++];
-        v += a[prs.x][prs.y];
-        if (prs.step == d) continue;
-        for (int i = 0; i < 4; i++) {
-            int nx = prs.x + dx[i];
-            int ny = prs.y + dy[i];
-            if (nx >= 60 && nx < n + 60 && ny >= 60 && ny < m + 60 && !vis[nx][ny]) {
-                q[r++] = (Stage) {nx, ny, prs.step + 1};
-                vis[nx][ny] = 1;
-            }
+    for (int i = x - d; i <= x + d; i++) {
+        for (int j = y - d; j <= y + d; j++) {
+            if (abs(i - x) + abs(j - y) > d) continue;
+            v += a[i][j];
         }
     }
     return v;

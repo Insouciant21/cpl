@@ -38,7 +38,7 @@ int main() {
     }
     for (int i = 0; i < 3; i++) {
         qsort(p, n, sizeof(Team), cmp[i]);
-        for (int j = 0; j < n; j++) printf("%s ", p[j].name);
+            for (int j = 0; j < n; j++) printf("%s ", p[j].name);
         printf("\n");
     }
 }

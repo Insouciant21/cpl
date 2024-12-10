@@ -13,7 +13,7 @@ int main(void) {
     while (q--) {
         int t;
         scanf("%d",&t);
-        int *p = (int *)bsearch(&t, a, n, sizeof(int), cmp);
+        int *p = bsearch(&t, a, n, sizeof(int), cmp);
         if (p) printf("%lld\n", p - a);
         else printf("-1\n");
     }

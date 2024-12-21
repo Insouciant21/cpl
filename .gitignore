@@ -1,7 +1,7 @@
 */cmake-build-*/
 cmake-build-*/
 */.vs
-*/out
+*/out*
 */.idea
 */.vscode
 */.DS_Store
@@ -9,3 +9,4 @@ cmake-build-*/
 */.clang-tidy
 */.ccls-cache
 */.ccls-cache/
+.idea

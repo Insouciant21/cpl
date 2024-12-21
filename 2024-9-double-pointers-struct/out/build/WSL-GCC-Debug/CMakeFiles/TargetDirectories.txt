@@ -1,6 +1,0 @@
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/bsearch.dir
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/split-sort.dir
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/fifa.dir
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/polynlist.dir
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug/CMakeFiles/rebuild_cache.dir

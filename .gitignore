@@ -2,3 +2,10 @@
 cmake-build-*/
 */.vs
 */out
+*/.idea
+*/.vscode
+*/.DS_Store
+*/.clangd
+*/.clang-tidy
+*/.ccls-cache
+*/.ccls-cache/

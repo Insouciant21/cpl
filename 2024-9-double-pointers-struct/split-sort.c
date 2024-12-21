@@ -12,5 +12,5 @@ int main() {
         tok = strtok(NULL, delim);
     }
     qsort(p, pos, sizeof(p[0]), strcmp);
-    for (int i = 0; i < pos; i++) printf("%s\n", p[i]);
+    for (int i = 0; i < pos; i++) printf("%s\n", p[i]); 
 }

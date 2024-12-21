@@ -1,0 +1,5 @@
+/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-nomark/out/build/WSL-GCC-Debug/CMakeFiles/stack-pour.c.dir
+/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-nomark/out/build/WSL-GCC-Debug/CMakeFiles/file-management.c.dir
+/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-nomark/out/build/WSL-GCC-Debug/CMakeFiles/string-hash.c.dir
+/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-nomark/out/build/WSL-GCC-Debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-nomark/out/build/WSL-GCC-Debug/CMakeFiles/rebuild_cache.dir

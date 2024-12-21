@@ -44,6 +44,7 @@ void output(const Poly a, char *name) {
         char *c = convert(a.exp[i], i == high, i == 0);
         char *p = con2(name, i);
         printf("%s%s", c, p);
+        free(c), free(p);
     }
     puts("");
 }

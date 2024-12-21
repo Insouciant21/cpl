@@ -1,0 +1,5 @@
+C:/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-marked/2024-10-linked-list-marked/out/build/x64-debug/CMakeFiles/cycle-detect.c.dir
+C:/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-marked/2024-10-linked-list-marked/out/build/x64-debug/CMakeFiles/buddy.c.dir
+C:/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-marked/2024-10-linked-list-marked/out/build/x64-debug/CMakeFiles/keyboard.c.dir
+C:/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-marked/2024-10-linked-list-marked/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Insouciant21/CLionProjects/CPL/2024-10-linked-list-marked/2024-10-linked-list-marked/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

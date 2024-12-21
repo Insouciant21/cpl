@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2024_9_double_pointers_struct",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bsearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bsearch-Debug-400d72634a9c2bd9e5ab.json",
+					"name" : "bsearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fifa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fifa-Debug-2a466c3601c809e7438d.json",
+					"name" : "fifa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polynlist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polynlist-Debug-a2bad0c949ac19731a24.json",
+					"name" : "polynlist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "split-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-split-sort-Debug-870110ebb515e4edbd73.json",
+					"name" : "split-sort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct/out/build/WSL-GCC-Debug",
+		"source" : "/mnt/c/Users/Insouciant21/CLionProjects/CPL/2024-9-double-pointers-struct"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
